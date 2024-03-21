@@ -1,6 +1,7 @@
 Tabella: Auto usate
 
-N° Telaio: VARCHAR(20), PK
+id: SMALL, PK
+N° Telaio: VARCHAR(20), UNIQUE, NOT NULL
 Marca: VARCHAR(20), NOT NULL
 Modello: VARCHAR(20), NOT NULL
 Alimentazione: VARCHAR(10), NOT NULL
@@ -10,7 +11,7 @@ N° Posti: TINYINT, NOT NULL
 N° Porte: TINYINT, NOT NULL
 Chilometraggio: MEDIUMINT, NOT NULL
 Cambio: VARCHAR(10), NOT NULL
-Cilindrata: SMALL, NOT NULL
+Cilindrata: SMALL, NULL
 Trazione: VARCHAR(15), NULL
 Anno Immatricolazione: YEAR, NOT NULL
 Paese di provenienza: VARCHAR(2), NOT NULL
