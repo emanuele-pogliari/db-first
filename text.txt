@@ -8,7 +8,7 @@ Tipologia: VARCHAR(20), NOT NULL
 Allestimento: VARCHAR(20), NULL
 N° Posti: TINYINT, NOT NULL
 N° Porte: TINYINT, NOT NULL
-Chilometraggio: SMALL, NOT NULL
+Chilometraggio: MEDIUMINT, NOT NULL
 Cambio: VARCHAR(10), NOT NULL
 Cilindrata: SMALL, NOT NULL
 Trazione: VARCHAR(15), NULL
