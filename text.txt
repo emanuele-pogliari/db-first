@@ -1,0 +1,22 @@
+Tabella: Auto usate
+
+N° Telaio: VARCHAR(20), PK
+Marca: VARCHAR(20), NOT NULL
+Modello: VARCHAR(20), NOT NULL
+Alimentazione: VARCHAR(10), NOT NULL
+Tipologia: VARCHAR(20), NOT NULL
+Allestimento: VARCHAR(20), NULL
+N° Posti: TINYINT, NOT NULL
+N° Porte: TINYINT, NOT NULL
+Chilometraggio: SMALL, NOT NULL
+Cambio: VARCHAR(10), NOT NULL
+Cilindrata: SMALL, NOT NULL
+Trazione: VARCHAR(15), NULL
+Anno Immatricolazione: YEAR, NOT NULL
+Paese di provenienza: VARCHAR(2), NOT NULL
+Optional: TEXT, NULL
+Potenza in kw: SMALL, NULL
+Unico Proprietario: TINYINT, NOT NULL
+Prezzo: FLOAT(8,2), NOT NULL
+Colore: VARCHAR(30), NOT NULL
+
