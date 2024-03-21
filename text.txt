@@ -1,5 +1,6 @@
 Tabella: Auto usate
 
+
 id: SMALL, PK
 N° Telaio: VARCHAR(20), UNIQUE, NOT NULL
 Marca: VARCHAR(20), NOT NULL
